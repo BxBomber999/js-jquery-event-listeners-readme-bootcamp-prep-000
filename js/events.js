@@ -10,10 +10,12 @@ $(document).ready(function(){
   }
 
   function frameIt() {
-    $('#tasty').on('load', function() {
-      $('#tasty').addAttribute(frame(color: red))
+    $('img').on('load', function() {
+      var image = $('img')
+      image.className = "tasty"
+      image.frame.style.border-color = "thick solid red"
     })
   }
 
-  
+
 });
