@@ -10,7 +10,6 @@ function frameIt() {
   $('img').on('load', function() {
     var image = $('img')
     image.className = "tasty"
-    image.frame.style.border-color = "thick solid red"
   })
 }
 
