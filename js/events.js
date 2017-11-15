@@ -31,9 +31,9 @@ $('form').on('submit', function() {
 
 $(document).ready(function(){
 
-  getIt()
-  frameIt()
-  pressIt()
-  submitIt()
+  document.getIt()
+  document.frameIt()
+  document.pressIt()
+  document.submitIt()
 
 });
